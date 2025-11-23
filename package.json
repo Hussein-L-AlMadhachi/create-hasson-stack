@@ -1,0 +1,36 @@
+{
+    "name": "create-hasson-stack",
+    "version": "0.1.1",
+    "description": "Hasson Project Template for backends",
+    "main": "main.js",
+    "type": "module",
+    "bin": {
+        "create-pg-norm": "./main.js"
+    },
+    "files": [
+        "main.js",
+        "template/"
+    ],
+    "keywords": [
+        "postgres",
+        "pg",
+        "postgres.js",
+        "noorm",
+        "norm",
+        "pgnorm",
+        "pg-norm",
+        "sql",
+        "rpc",
+        "remote-procedure-call",
+        "express",
+        "api",
+        "backend",
+        "typescript",
+        "nodejs",
+        "middleware",
+        "enders-sync",
+        "database"
+    ],
+    "author": "Hussein Layth AlMadhachi",
+    "license": "MIT"
+}

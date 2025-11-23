@@ -19,7 +19,7 @@ export class UsersTable extends PG_AuthTable {
     constructor(pg_app: PG_App) {
 
         //      app  , table_name ,           visible columns             ,  identify user by
-        super( pg_app, 'users', [ "id" , 'name', 'email', 'age' , "role"] ,      "email"       );
+        super( pg_app, 'users', [ "id" , 'name', 'role' , 'email', 'age' , "role"] ,      "email"       );
 
         // the code above sets the properies visibles , table_name and identify_user_by for you
 

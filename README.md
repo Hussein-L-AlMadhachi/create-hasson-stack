@@ -1,16 +1,16 @@
 # create-pg-norm utility
 
-helps users make thier own [pg-norm](https://github.com/hussein-l-almadhachi/pg-norm) project
+Backend Project template for setup, JWT auth, users account management
+
+uses Enders-sync and PG-NORM
 
 ## how to use
 
 ```bash
-npm create pg-norm my-project
+npm create hasson-stack@latest my-project
 cd my-project
 npm install
 ```
-
-for more information check the [pg-norm repo](https://github.com/hussein-l-almadhachi/pg-norm)
 
 ## License
 

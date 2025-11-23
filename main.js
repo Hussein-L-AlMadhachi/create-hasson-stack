@@ -78,9 +78,7 @@ async function main() {
 📁 Next steps:
   1. cd ${projectName}
   2. npm install
-  3. Edit src/db.ts with your database credentials
-  4. Edit src/models.ts to make your own schema
-  5. npm run db:create
+  3. Edit code in src/
 
 ✨ the project template gives a quick guide on how to start with this
 

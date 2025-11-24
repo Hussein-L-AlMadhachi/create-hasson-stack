@@ -3,7 +3,7 @@ import type {Metadata} from "enders-sync";
 
 
 
-export async function registerViewer( data:any ) {
+export async function registerUser( data:any ) {
     delete data["id"];
     delete data["created_at"];
 

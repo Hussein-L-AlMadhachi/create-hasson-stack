@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 dotenv.config({ path: '../.env' })
 
 import { login } from './modules/auth.js';
-import { registerViewer , registerAdmin , update , deleteUser , getProfile } from "./services/profile.js";
+import { registerUser , registerAdmin , update , deleteUser , getProfile } from "./services/profile.js";
 import { authValidator } from './auth_roles.js';
 
 
@@ -19,7 +19,7 @@ export const publicRPC = createRPC(app, '/api/public', () => ({
 }));
 
 publicRPC.add( login );
-publicRPC.add( registerViewer )
+publicRPC.add( registerUser )
 publicRPC.add( registerAdmin )
 
 

@@ -1,6 +1,6 @@
 {
     "name": "create-hasson-stack",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Hasson Project Template for backends",
     "main": "main.js",
     "type": "module",
